@@ -23,9 +23,11 @@
 	<key>CFBundleURLTypes</key>
 	<array>
 		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>sinaweibosso.{app_key或者自定义的回调值}</string>
+				<string>sinaweibosso.741729597</string>
 			</array>
 		</dict>
 	</array>
