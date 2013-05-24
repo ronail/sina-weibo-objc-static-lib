@@ -463,10 +463,11 @@
 /**
  * @description sso回调方法，官方客户端完成sso授权后，回调唤起应用，应用中应调用此方法完成sso登录
  * @param url: 官方客户端回调给应用时传回的参数，包含认证信息等
- * @return YES
+ * @return Yes if handled, NO otherwise
  */
 - (BOOL)handleOpenURL:(NSURL *)url
 {
+    return NO;
     NSString *urlString = [url absoluteString];
     if ([urlString hasPrefix:self.ssoCallbackScheme])
     {
@@ -532,8 +533,9 @@
                 [self logInDidFinishWithAuthInfo:authInfo];
             }
         }
+        return YES;
     }
-    return YES;
+    return NO;
 }
 
 @end
