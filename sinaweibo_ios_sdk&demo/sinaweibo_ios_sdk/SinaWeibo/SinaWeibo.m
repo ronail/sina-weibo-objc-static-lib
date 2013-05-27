@@ -7,11 +7,10 @@
 //
 
 #import "SinaWeibo.h"
-#import "SinaWeiboRequest.h"
 #import "SinaWeiboAuthorizeView.h"
 #import "SinaWeiboConstants.h"
 
-@interface SinaWeibo ()
+@interface SinaWeibo () <SinaWeiboAuthorizeViewDelegate, SinaWeiboRequestDelegate>
 
 @property (nonatomic, copy) NSString *appKey;
 @property (nonatomic, copy) NSString *appSecret;

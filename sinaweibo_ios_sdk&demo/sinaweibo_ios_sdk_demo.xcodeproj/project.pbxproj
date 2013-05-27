@@ -23,7 +23,7 @@
 		720E3639174FDC02000BE393 /* SinaWeibo.h in Headers */ = {isa = PBXBuildFile; fileRef = BA59D09116818B1700C76B64 /* SinaWeibo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		720E363A174FDC02000BE393 /* SinaWeiboAuthorizeView.h in Headers */ = {isa = PBXBuildFile; fileRef = BA59D09316818B1700C76B64 /* SinaWeiboAuthorizeView.h */; settings = {ATTRIBUTES = (); }; };
 		720E363B174FDC02000BE393 /* SinaWeiboConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = BA59D09516818B1700C76B64 /* SinaWeiboConstants.h */; settings = {ATTRIBUTES = (); }; };
-		720E363C174FDC02000BE393 /* SinaWeiboRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = BA59D09616818B1700C76B64 /* SinaWeiboRequest.h */; settings = {ATTRIBUTES = (); }; };
+		720E363C174FDC02000BE393 /* SinaWeiboRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = BA59D09616818B1700C76B64 /* SinaWeiboRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		720E363D174FDCC6000BE393 /* JSONKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D00DCDE016C23E4500F6BBE5 /* JSONKit.h */; settings = {ATTRIBUTES = (); }; };
 		720E363E174FDDD1000BE393 /* SinaWeibo.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BA59D09016818B1700C76B64 /* SinaWeibo.bundle */; };
 		BA59D09816818B1700C76B64 /* SinaWeibo.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BA59D09016818B1700C76B64 /* SinaWeibo.bundle */; };
@@ -265,9 +265,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				720E3639174FDC02000BE393 /* SinaWeibo.h in Headers */,
+				720E363C174FDC02000BE393 /* SinaWeiboRequest.h in Headers */,
 				720E363D174FDCC6000BE393 /* JSONKit.h in Headers */,
 				720E363A174FDC02000BE393 /* SinaWeiboAuthorizeView.h in Headers */,
-				720E363C174FDC02000BE393 /* SinaWeiboRequest.h in Headers */,
 				720E363B174FDC02000BE393 /* SinaWeiboConstants.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,11 +296,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D003A015174FB87A005E2BA5 /* Build configuration list for PBXNativeTarget "Universal Framework" */;
 			buildPhases = (
-				D003A01A174FB9F1005E2BA5 /* ShellScript */,
 				D003A003174FB87A005E2BA5 /* Sources */,
 				D003A004174FB87A005E2BA5 /* Frameworks */,
 				720E3638174FDBD4000BE393 /* Headers */,
 				D003A005174FB87A005E2BA5 /* Resources */,
+				D003A01A174FB9F1005E2BA5 /* ShellScript */,
 			);
 			buildRules = (
 			);

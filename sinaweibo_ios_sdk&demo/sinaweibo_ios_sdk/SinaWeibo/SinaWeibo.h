@@ -7,12 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "SinaWeiboAuthorizeView.h"
 #import "SinaWeiboRequest.h"
 
 @protocol SinaWeiboDelegate;
 
-@interface SinaWeibo : NSObject <SinaWeiboAuthorizeViewDelegate, SinaWeiboRequestDelegate>
+@interface SinaWeibo : NSObject
 {
     NSString *userID;
     NSString *accessToken;
