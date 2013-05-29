@@ -466,7 +466,6 @@
  */
 - (BOOL)handleOpenURL:(NSURL *)url
 {
-    return NO;
     NSString *urlString = [url absoluteString];
     if ([urlString hasPrefix:self.ssoCallbackScheme])
     {
